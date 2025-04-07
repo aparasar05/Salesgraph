@@ -1,0 +1,11 @@
+1)- ssh -i "Farbot-panorama.pem" ubuntu@ec2-54-250-68-212.ap-northeast-1.compute.amazonaws.com
+2)- sudo vi /script/bin/s3_download.sh
+3)- ls -lrt /script/bin/
+4)- sudo vi /script/bin/s3_download.sh
+5)- cd opt/
+6)- aws s3 cp s3://objecttextract/files /opt/s3-download-dir
+7)- sudo chmod 777 /opt/s3-download-dir
+8)- aws s3 cp s3://farbot-panorama /opt/s3-download-dir/
+9)- aws s3 cp s3://objectextract/files/ /opt/S3-download-dir/ --recursive
+
+0482512901 saitama
